@@ -1,0 +1,81 @@
+*{box-sizing:border-box;}
+
+body{
+width=95%;
+  font-family: 'Julius Sans One', sans-serif;
+  text-align:center;
+  font-weight:100;
+   background-image:linear-gradient(to bottom, rgba(120, 255,200,0.1), rgba(255,255,255,1) ),url(../img/StorHabanero.jpg);
+  background-size:cover;
+  
+/**********************************
+  ******HEADING********************/
+}
+header{
+  font-size:3em;
+  padding-top:10%;}
+
+.container-header{
+  display:flex;
+  margin-top:100px;
+  margin-bottom:10px;
+  width:60%;
+margin-left:auto;
+  margin-right:auto;
+  justify-content:space-around;
+  flex-wrap:wrap;
+  flex-direction:row;
+  height:7%;}
+
+.Main-heading {
+  margin:5%;
+  padding:3%;
+  padding-bottom:7%;
+ text-align:center;
+background:rgba(40, 40, 40, 0.1);
+  text-shadow:-2px -2px 10px #909090; }
+h1{
+  margin:0px;
+  text-align:center;
+  border:0.01px solid, lightgrey;
+color:rgba(255, 100, 50, 0.7);
+font-size:3em;}
+.item a{
+  padding:3%;
+  font-size:1.0em;
+  color:rgba(50, 20, 20, 0.4);
+;}
+a{
+text-decoration:none;
+  margin:7px;}
+h2{
+   font-size:3em;
+  display:inline-block;
+  padding:2% 2% 2% 2%;
+margin:12% 2% 4% 2%;
+  color:rgba(100, 10, 10, 0.3);
+ box-shadow:-2px -2px 10px grey;
+  background-color:rgba(255, 255, 255, 0.4);}
+}
+
+/*******************************
+*********SECTION***************/
+
+.gallery{
+display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  padding:3%;
+  flex-direction:row;
+  width:500px;
+  }
+
+.galleryItem{
+  width:250px;
+    height:250px;
+  margin:2%;
+  padding:1%;
+box-shadow:-2px -2px 10px grey;
+ 
+}
+
